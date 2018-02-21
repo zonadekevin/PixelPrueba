@@ -1,0 +1,65 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.kevin.pixelprueba.Fragmentos.Inicio"
+    android:background="@drawable/fondo"
+    android:gravity="center">
+
+    <TextView
+        android:layout_marginTop="160dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorWhite"
+        android:text="PIXEL GAMES"
+        android:textStyle="bold"
+        android:textScaleX="1.2"
+        android:textSize="40dp"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorWhite"
+        android:text="Gestión de productos y servicios"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="15dp"/>
+
+    <LinearLayout
+        android:layout_marginTop="240dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/boton2"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:text="Acceso"
+            android:textColor="@color/colorWhite"
+            android:visibility="gone"
+            />
+        <Button
+            android:id="@+id/btnInvitado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/boton2"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:text="Entrar"
+            android:textColor="@color/colorWhite"
+            android:layout_marginLeft="10dp"
+            android:visibility="gone"
+            />
+
+
+    </LinearLayout>
+
+</LinearLayout>
