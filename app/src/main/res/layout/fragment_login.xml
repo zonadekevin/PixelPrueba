@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:textColor="@color/colorWhite"
         android:textStyle="bold"
-        android:text="LOGIN"
+        android:text="LOGIN Git"
         android:textSize="30dp"
         android:gravity="center"
         android:fontFamily="monospace"/>
@@ -158,7 +158,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textColor="#208ad1"
-        android:textSize="16dp"
+        android:textSize="16sp"
         android:text="Entrar sin acceso a internet."
         android:textStyle="bold"
         android:clickable="true"
